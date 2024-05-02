@@ -1,0 +1,13 @@
+:root {
+
+}
+
+body {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
