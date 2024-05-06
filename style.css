@@ -6,7 +6,6 @@
 
 body {
     box-sizing: border-box;
-    text-align: center;
     background-color: black;
     font-family: "Roboto", sans-serif;
 }
@@ -79,11 +78,17 @@ a {
     border-radius: 5px;
 }
 
-.main-container img {
+.main-container  {
+    margin: 0 5%;
+    width: 100%;
+}
+
+.main-container img{
     width: 90%;
 }
 
 .button-shop-now {
+    text-align: center;
 }
 
 .button-shop-now a {
@@ -92,5 +97,13 @@ a {
     border: 2px dashed gray;
     font-size: larger;
     border-radius: 5px;
+    border-color:  goldenrod gray goldenrod gray;
     background-color: #404040;
+}
+
+.container {
+    color: white;
+    & .text a{
+        font-weight: lighter;
+    }
 }
